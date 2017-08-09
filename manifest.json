@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Hypothesis",
+  "version": "1.0",
+  "description": "Web annotator",
+  "homepage_url": "https://github.com/JTWalraven/hypothesis-firefox-plugin",
+  "icons": {
+    "48": "icons/logo.png",
+    "96": "icons/logo@2x.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/logo-off.svg",
+    "browser_style": true
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+
+}

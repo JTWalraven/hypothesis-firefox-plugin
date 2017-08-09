@@ -1,0 +1,5 @@
+Hypothesis Firefox Plugin
+=========================
+
+A simple plugin for Firefox until Hypothesis
+annotator comes out with the official version.
